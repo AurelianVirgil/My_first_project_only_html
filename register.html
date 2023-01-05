@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.masteryourdestiny.com</title>
+</head>
+<body>
+	<body style="background-color:yellow;">
+	<h1>REGISTER TODAY</h1>
+		<style>
+		h1 {text-align: center; color: blue; font-size: 100px}
+		</style>
+	<input type="reset" value="Reset"><br><br>
+	<form method="GET">
+		First Name: <input type="text" name="firstname"><br><br>
+		Last Name: <input type="text" name="lasttname"><br><br>
+		Email: <input type="email" name="email"><br><br>
+		<!-- Updated min to minlength (min is used only for range inputs. Visit here for more info: https://www.w3schools.com/tags/att_input_maxlength.asp) -->
+		Password: <input type="password" name="password" minLength="5"><br><br>
+		Birthday: <input type="date" name="birthday"><br><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br><br>
+		Interests:<br>
+		<!-- ******
+			See if you can play around with the below checkboxes and add the "value" attribute. How will this change the query string when you click "Register"?
+		***** -->
+		<input type="checkbox" name="new job opportunity" value="yes"> new job opportunity<br>
+		<input type="checkbox" name="exchange of experience" value="yes"> exchange of experience<br>
+		<input type="checkbox" name="requalification courses" value="yes"> requalification courses<br>
+		<input type="checkbox" name="help an ngo" value="yes"> help an ngo<br><br>
+		How did you find out about us?: <br>
+		<select name="How did you find out about us?">
+			<option value="" ></option>
+			<option value="internet" >internet</option>
+			<option value="word of mouth">word of mouth</option>
+		</select><br><br>
+		<center>
+			<input type="submit" value="Register">
+		</center>
+	</form>
+</body>
+</html>
